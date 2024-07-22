@@ -44,7 +44,9 @@ python generate_data.py 1000000000
 - Veškeré výpočty musí být provedeny v paměti a během chodu programu.
   - Není povoleno použít žádné databázové systémy ani jiné nástroje pro práci s daty.
 - Implementace musí být odevzdána jako jeden soubror na tuto [stránku]().
-  - Program se spustí a po skončení Vám odešle výsledky na mail (pouze orientační).
+  - Program se spustí a po skončení Vám odešle výsledky na mail.
+  - Počet řádků v souboru `measurements.txt` na kterém se bude testovat funkčnost je 1 000 000.
+  - Server má k dispozici 4GB RAM a 2 core CPU Intel Xeon Gold 5412U.
 - Po ukončení soutěže spustím všechny programy na osobním PC a vyberu ten nejrychlejší.
 
 ## Vyhodnocení výsledků
