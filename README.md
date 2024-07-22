@@ -26,7 +26,7 @@ Istanbul;23.0
 
 ## Získání dat
 
-Tento repozitář obsahuje skript `generate_data.py`, který vygeneruje soubor s zadaným počtem řádků. Soubor je ve formátu CSV, kde první sloupec obsahuje název stanice a druhý sloupec obsahuje hodnotu teploty.
+Prvním krokem k získání dat je stažení tohoto repozitáře. Tento repozitář obsahuje skript `generate_data.py`, který vygeneruje soubor s zadaným počtem řádků. Soubor je ve formátu CSV, kde první sloupec obsahuje název stanice a druhý sloupec obsahuje hodnotu teploty.
 
 Spusťte skript a vygenerujte data (pouze jednou):
 
