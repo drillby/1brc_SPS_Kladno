@@ -53,6 +53,7 @@ python create_measurements.py 1000000000
 
 Výsledky budou posouzeny po spuštění programu na osobním PC na verzi Pythonu [3.10.12](https://www.python.org/downloads/release/python-31012/).
 ![Specifikace PC](imgs/image.png)
+
 Součástí procesu hodnocení bude i kontrola výstupu programu a případné nalezení nejkratší cesty ke správnému řešení.
 
 Po vyhodnocení se všem účastnékům odešle na mail doba běhu a pořadí.
