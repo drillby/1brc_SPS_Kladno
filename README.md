@@ -44,7 +44,7 @@ python create_measurements.py 1000000000
 - Veškeré výpočty musí být provedeny v paměti a během chodu programu.
   - Není povoleno použít žádné databázové systémy ani jiné nástroje pro práci s daty.
 - Implementace musí být odevzdána jako jeden soubror na tuto [stránku](http://1brc.hostgo.cloud/).
-  - Program se spustí a po skončení Vám odešle na mail dobu chodu a zda výstup odpovídá očekávanému výsledku (kontroluje se pouze hash výstupu).
+  - Program se spustí a po skončení Vám odešle na mail(povolena je pouze doména spskladno.cz) dobu chodu a zda výstup odpovídá očekávanému výsledku (kontroluje se pouze hash výstupu).
   - Počet řádků v souboru `./data/measurements.txt` na kterém se bude testovat funkčnost je 1 000 000 (ujistěte se, že váš program dokáže z této cesty načíst soubor).
   - Server má k dispozici 4GB RAM a 2 core CPU Intel Xeon Gold 5412U.
 - Po ukončení soutěže spustím všechny programy na osobním PC a vyberu ten nejrychlejší.
