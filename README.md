@@ -31,7 +31,7 @@ Prvním krokem k získání dat je stažení tohoto repozitáře. Tento repozit�
 Spusťte skript a vygenerujte data (pouze jednou):
 
 ```bash
-python generate_data.py 1000000000
+python create_measurements.py 1000000000
 ```
 
 **Pozor:** Genrování požadovaného množství dat může trvat několik minut. Výsledný soubor bude mít název `measurements.txt`, bude uložen ve složce `data` a bude mít velikost zhruba **12GB**.
