@@ -64,3 +64,7 @@ V případě, že doba běhu programu přesáhne 10 minut bude program označen 
 ## Ceny
 
 Pokud se zúčastníte této výzvy, můžete se naučit něco nového, inspirovat ostatní a být hrdí na svůj výkon. **Nějaké hmotné ceny???**
+
+## Jak funguje odevzdávání programu na pozadí?
+
+Pokud Vás zajímá jak funguje logika odevzdávání programu na pozadí, tak se můžete podívat na [tento repozitář](https://github.com/drillby/1brc_upload). Tento repozitář obsahuje source code pro Flask server, který zpracovává odevzdané programy a zasílá výsledky na email. Kód nemá dokumentaci, tak se v něm budete muset trochu pohrabat.
