@@ -4,7 +4,7 @@ Nápad převzatý z [The One Billion Row Challenge](https://github.com/gunnarmor
 
 ## Zadání
 
-One Billion Row Challenge (1BRC) je zajímavý projekt, který posouvá hranice možností jazyka Python při zpracování obrovských souborů dat. Představte si, jak zajímavé je zpracovat miliardu řádků z textového souboru pomocí jazyka Python - kde lze využít všechny optimalizační triky, strategie pro správu vláken a paměti k vytvoření co nejrychlejšího řešení. Zúčastněte se této výzvy a využijte sílu Pythonu, prozkoumejte možnosti jazyka, vylaďte garbage collection a odemkněte plný potenciál Pythonu pro zdolání tohoto monumentálního úkolu!
+One Billion Row Challenge (1BRC) je zajímavý projekt, který posouvá hranice možností jazyka Python při zpracování obrovských souborů dat. Představte si, jak zajímavé je zpracovat miliardu řádků z textového souboru pomocí jazyka Python - kde lze využít všechny optimalizační triky, strategie pro správu vláken a paměti k vytvoření co nejrychlejšího řešení. Zúčastněte se této výzvy a využijte sílu Pythonu, prozkoumejte možnosti jazyka a odemkněte plný potenciál Pythonu pro zdolání tohoto monumentálního úkolu!
 
 Textový soubor obsahuje hodnoty teploty pro řadu meteorologických stanic. Každý řádek je jedno měření ve formátu `<string: název stanice>;<float: měření>`, přičemž hodnota měření má přesně jedno desetinné místo. Jako příklad je uvedeno deset řádků:
 
@@ -43,9 +43,9 @@ python generate_data.py 1000000000
   - Nepoužívejte žádné externí knihovny.
 - Veškeré výpočty musí být provedeny v paměti a během chodu programu.
   - Není povoleno použít žádné databázové systémy ani jiné nástroje pro práci s daty.
-- Implementace musí být odevzdána jako jeden soubror na tuto [stránku]().
-  - Program se spustí a po skončení Vám odešle výsledky na mail.
-  - Počet řádků v souboru `measurements.txt` na kterém se bude testovat funkčnost je 1 000 000.
+- Implementace musí být odevzdána jako jeden soubror na tuto [stránku](http://1brc.hostgo.cloud/).
+  - Program se spustí a po skončení Vám odešle na mail dobu chodu a zda výstup odpovídá očekávanému výsledku (kontroluje se pouze hash výstupu).
+  - Počet řádků v souboru `./data/measurements.txt` na kterém se bude testovat funkčnost je 1 000 000 (ujistěte se, že váš program dokáže z této cesty načíst soubor).
   - Server má k dispozici 4GB RAM a 2 core CPU Intel Xeon Gold 5412U.
 - Po ukončení soutěže spustím všechny programy na osobním PC a vyberu ten nejrychlejší.
 
@@ -53,9 +53,14 @@ python generate_data.py 1000000000
 
 Výsledky budou posouzeny po spuštění programu na osobním PC na verzi Pythonu [3.10.12](https://www.python.org/downloads/release/python-31012/).
 ![Specifikace PC](imgs/image.png)
+Součástí procesu hodnocení bude i kontrola výstupu programu a případné nalezení nejkratší cesty ke správnému řešení.
 
-## Cena
+Po vyhodnocení se všem účastnékům odešle na mail doba běhu a pořadí.
 
-Pokud se zúčastníte této výzvy, můžete se naučit něco nového, inspirovat ostatní a být hrdí na svůj výkon. Šeptá se, že student, který se přiblíží mému výkonu dostane na vysvědčení na konci roku nejhůře 3. :wink:
+V případě, že se výstup bude lišit od očekávaného, bude program označen jako neúspěšný a nebude zařazen do žebříčku. Na email se Vám odešle seznam nalezených chyb.
 
-![Můj výsledek](imgs/muj_vysledek.png)
+V případě, že doba běhu programu přesáhne 10 minut bude program označen jako neúspěšný a nebude zařazen do žebříčku. Na email se Vám odešle informace o překročení limitu.
+
+## Ceny
+
+Pokud se zúčastníte této výzvy, můžete se naučit něco nového, inspirovat ostatní a být hrdí na svůj výkon. **Nějaké hmotné ceny???**
